@@ -102,15 +102,6 @@ class Model:
         
     ## CONTAGEM DE AGRs
     def contagem(self, tabela):
-        """Contagem de agrs com determinado staus em determinada ac 
-
-        Args:
-            nome_ac (str): nome da ac
-            status (str): status para pesquisa
-
-        Returns:
-            (int): quantidade encontrada
-        """
 
         comando = "SELECT COUNT(*) FROM {} ".format(tabela)
 
